@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(30, 58, 138, 0.8);
+    padding: 15px;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* CONTAINER */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+/* CARD */
+.card {
+    background: rgba(30, 41, 59, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* IMAGE */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* GALERI */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* FORM */
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* BUTTON */
+button {
+    background: #2563eb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+/* ANIMASI */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* WA BUTTON */
+.wa {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}

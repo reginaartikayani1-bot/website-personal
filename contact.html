@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="card hidden">
+        <h2>Upload Foto Ramadhan 📸</h2>
+        <input type="file" onchange="uploadImage(event)">
+        <div id="preview"></div>
+    </div>
+
+    <div class="card hidden">
+        <h2>Contact</h2>
+        <input type="text" placeholder="Nama">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Pesan"></textarea>
+        <button>Kirim</button>
+    </div>
+
+</div>
+
+<a class="wa" href="https://wa.me/6285951553045">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
